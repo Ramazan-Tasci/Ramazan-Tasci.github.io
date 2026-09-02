@@ -1,0 +1,39 @@
+.hero-title {
+    font-size: clamp(1.5rem, 2.2vw, 2rem);
+    margin-bottom: clamp(1.5rem, 4vw, 3rem);
+}
+
+.hero-text {
+    font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+    margin-top: clamp(1.5rem, 4vw, 3rem);
+    margin-bottom: clamp(1rem, 2vw, 1.5rem);
+}
+
+.hero-card-body {
+    padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.bg-silver {
+background-color: #424446;
+}
+
+.bg-gray {
+    background-color: #374450;
+}
+
+.news-image {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    width: 100%;
+}
+
+.news-carousel img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    width: 100%;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
